@@ -417,4 +417,14 @@
 	  <type name="*/*" />
     </intent-filter>
   </prescription>
+  <!-- Active[所有文件] -->
+  <prescription type="activity" package="com.brytonsport.active" class="com.brytonsport.active.MainActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="file"/>
+	  <scheme name="content"/>
+	  <type name="*/*" />
+    </intent-filter>
+  </prescription>
 </prescriptions>
