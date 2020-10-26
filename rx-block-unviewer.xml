@@ -415,6 +415,7 @@
       <scheme name="file"/>
       <scheme name="content"/>
 	  <type name="*/*" />
+          <host name="*" />
     </intent-filter>
     </prescription>
       <prescription type="activity" package="com.tencent.qqpimsecure" class="com.tencent.server.fore.ApkOpenActivity" sender="other">
