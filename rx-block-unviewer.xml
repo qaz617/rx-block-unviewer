@@ -427,4 +427,13 @@
 	  <type name="*/*" />
     </intent-filter>
   </prescription>
+  <!-- 腾讯手机管家[所有文件] -->
+	  <prescription type="activity" package="com.tencent.qqpimsecure" class="com.tencent.server.fore.MarketGuideActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW"/>
+      <cat name="android.intent.category.DEFAULT"/>
+      <scheme name="market"/>
+	  <host name="details"/>
+    </intent-filter>
+  </prescription>
 </prescriptions>
