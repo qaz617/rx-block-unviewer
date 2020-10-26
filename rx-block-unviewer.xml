@@ -411,6 +411,7 @@
       <scheme name="market"/>
 	  <host name="details"/>
     </intent-filter>
+    </prescription>
       <prescription type="activity" package="com.tencent.qqpimsecure" class="com.tencent.server.fore.FileTypeOpenActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -419,6 +420,7 @@
 	  <scheme name="content"/>
 	  <type name="*/*" />
     </intent-filter>
+    </prescription>
       <prescription type="activity" package="com.tencent.qqpimsecure" class="com.tencent.server.fore.ApkOpenActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
@@ -427,6 +429,7 @@
 	  <scheme name="content"/>
 	  <type name="*/*" />
     </intent-filter>
+    </prescription>
     <prescription type="activity" package="com.tencent.qqpimsecure" class="com.tencent.server.fore.SafeInstallGuidActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
